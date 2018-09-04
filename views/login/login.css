@@ -1,0 +1,81 @@
+body {
+	background: linear-gradient(-45deg, #163011, #152e42, #291542, #421515);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite; 
+}
+
+@-webkit-keyframes Gradient {
+	0% { 
+    background-position: 0% 50% 
+  }
+	50% { 
+    background-position: 100% 50%	
+  }
+	100% { 
+    background-position: 0% 50% 
+  }
+}
+
+@-moz-keyframes Gradient {
+	0% { 
+    background-position: 0% 50% 
+  }
+	50% { 
+    background-position: 100% 50%	
+  }
+	100% { 
+    background-position: 0% 50% 
+  }
+}
+
+@keyframes Gradient {
+	0% { 
+    background-position: 0% 50% 
+  }
+	50% { 
+    background-position: 100% 50% 
+  }
+	100% { 
+    background-position: 0% 50% 
+  }
+}
+
+#canvas {
+	z-index: -1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-top: 10px;
+  padding-left: 10px;
+}
+
+#wrapper {
+  height: 400px;
+  width: 600px;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px solid rgba(0, 0, 0, .5);
+  border-radius: 10px;
+  box-sizing: border-box;
+  display: block;
+}
+
+#form {
+  height: 380px;
+  width: auto;
+  background-color: rgb(230, 230, 230);
+}
+
+#form h1 {
+  top: 0;
+  margin: 0 auto;
+  display: block;
+  font-size: 1.5em;
+  font-weight: 300;
+  padding: 20px 0px 20px 0px;
+  width: 100%;
+  background-color: rgb(0, 94, 170);
+}

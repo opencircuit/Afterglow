@@ -1,0 +1,25 @@
+{
+  "name": "afterglow",
+  "version": "1.0.0",
+  "description": "Create websites easily!",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opencircuit/Afterglow.git"
+  },
+  "author": "Prince Choudhury",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/opencircuit/Afterglow/issues"
+  },
+  "homepage": "https://github.com/opencircuit/Afterglow#readme",
+  "devDependencies": {
+    "browserify": "^16.2.2",
+    "electron": "^2.0.8",
+    "electron-reload": "^1.2.5",
+    "eslint": "^5.4.0"
+  }
+}
